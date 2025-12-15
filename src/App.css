@@ -1,0 +1,32 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+.grid div{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    text-align: center;
+ 
+}
+
+.grid div{
+   hover{
+        cursor: pointer;
+        box-shadow: 2px 2px 5px rgb(161, 70, 70);
+    }   
+
+    background-color: bisque;
+     
+}
+.score-board{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}   
